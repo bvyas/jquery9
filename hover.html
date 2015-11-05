@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>hover</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	 <script>
+		 $(document).ready(function(){ 
+		 	$('div.a').on('mouseover', 'h4', function(){
+		 		$(this).css('color','yellow');	
+		 		$('div.b').fadeOut();
+		 });
+		 	
+		 	});	
+ 	</script>
+ </head>
+ <body>
+  <div class='a'>
+  	<h4>pari hu main</h4>
+  </div>
+  <div class='b'>
+  	<h5>I am a writer</h5>
+  </div>
+ </body>
+</html>
